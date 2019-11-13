@@ -7,7 +7,7 @@ const Routes = () => {
        <>
         <Router>
             <Switch>
-                { RouteList.map((r)=><Route exact path={r.path} component={r.component} />)}
+                { RouteList.map((r,index)=><Route key={index} exact path={r.path} component={r.component} />)}
             </Switch>
         </Router>
        </>
