@@ -1,0 +1,69 @@
+$background-image:url('./header-bg.jpg');
+.hero-wrapper{ 
+    background-image:linear-gradient(to right, rgba(255,0,0,0), rgb(221, 123, 32)), $background-image;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size:cover;
+    background-position: fixed;
+    width: 100vw;
+    height: 50rem;
+    line-height: 0.1rem;
+}
+
+.profile-img{
+    display: flex;
+    justify-content: center;  
+}
+.profile-img img{
+    margin: 0;
+    padding: 0;
+    border-radius: 50%;
+    min-height: 10rem;
+    min-width: 10rem;
+    max-width: 10.5rem;
+    max-height: 10.5rem;
+    border: 5px solid #000;  
+}
+.profile-name{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: #fff;
+}
+.hero-text{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    h1{
+        width: 50%;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+}
+
+.about-me{
+    line-height: 2rem;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    p{
+      width: 50%; 
+      text-align: justify;
+      text-justify: inter-word;
+      font-size: 1.5rem;
+      text-shadow: 
+        1px 0px 1px #000, 0px 1px 1px #eee, 
+        2px 1px 1px #000, 1px 2px 1px #eee,
+        3px 2px 1px rgb(96, 96, 128), 2px 3px 1px #eee,
+        4px 3px 1px rgb(113, 179, 113), 2px 4px 1px #eee,
+        5px 4px 1px rgb(219, 17, 17), 3px 5px 1px #eee,
+    }
+}
+
+

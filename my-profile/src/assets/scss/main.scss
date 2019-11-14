@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One|Kaushan+Script&display=swap');
+$background : #efefef;
+$color:#000;
+$font:'Kaushan Script', cursive;
+$weight:100;
+$header-background: #ff8000;
+$header-color:#efefef;
+$header-hover-background: #ff8d1a;
+$header-hover-color:#efefef;
+
+html,body{
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background: $background;
+    color: $color;
+    font: {
+        family: $font;
+        width: $weight;
+    }
+
+}

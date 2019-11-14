@@ -1,0 +1,51 @@
+
+$background : #efefef;
+$color:#000;
+$font:'Kaushan Script', cursive;
+$weight:100;
+
+$header-background: #ff8000;
+$header-color:#efefef;
+$header-hover-background: #ff8d1a;
+$header-hover-color:#efefef;
+
+header{
+     font-family: $font;
+     width: 100%;
+     text-shadow: 2px 1px 4px #000000;
+     .nav-bar-wrapper{
+        background: $header-background;
+        display: flex;
+        justify-content: center;
+       .nav-list{
+            display: flex;
+            justify-content: space-between;
+            list-style:none;
+            align-items: center;
+         .nav-item{
+                padding: 1rem;
+                transition: .5s all;
+            }
+            .nav-link{
+                padding: 1rem;
+                color: $background;
+                text-decoration: none;
+                transform: uppercase;  
+            }
+        }
+    }
+}
+
+.nav-item .nav-link:hover{
+    background-color: $color;
+}
+
+@media screen and (max-width: 400px) {
+    header{
+        display: block;
+    }
+}
+
+
+
+
