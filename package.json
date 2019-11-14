@@ -55,7 +55,7 @@
     "mime": "latest",
     "mongodb": "^3.3.4",
     "mongoose": "latest",
-    "morgan": "~1.6.1",
+    "morgan": "~1.9.1",
     "multer": "latest",
     "mysql": "latest",
     "node-constants": "latest",
