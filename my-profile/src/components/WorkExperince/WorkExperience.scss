@@ -1,0 +1,17 @@
+$work-ex-bg:linear-gradient(to left, rgba(255,0,0,0), rgb(221, 123, 32)), url('./work-ex-bg.jpg');
+.work-ex-wrapper{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-image: $work-ex-bg;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+.w-ex-title .work-duration{
+    margin: unset;
+}
+h2{
+    margin: unset;
+}

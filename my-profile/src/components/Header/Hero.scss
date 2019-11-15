@@ -1,5 +1,7 @@
 $background-image:url('./header-bg.jpg');
 .hero-wrapper{ 
+    margin: 0;
+    padding: 0;
     background-image:linear-gradient(to right, rgba(255,0,0,0), rgb(221, 123, 32)), $background-image;
     background-repeat: no-repeat;
     background-position: center center;
